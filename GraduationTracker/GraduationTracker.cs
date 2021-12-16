@@ -5,8 +5,8 @@ namespace GraduationTracker
 {
     public class GraduationTracker
     {
-        private CourseRepository _courses;
-        private RequirementRepository _requirements;
+        private readonly CourseRepository _courses;
+        private readonly RequirementRepository _requirements;
 
         public GraduationTracker()
         {

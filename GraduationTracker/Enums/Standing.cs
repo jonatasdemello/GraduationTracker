@@ -3,9 +3,9 @@
     public enum Standing
     {
         None,
-        SumaCumLaude,
-        MagnaCumLaude,
-        Average,
-        Remedial
+        SumaCumLaude, // With Highest Honor
+        MagnaCumLaude, // With Great Honor
+        Average, // CumLaude With Praise
+        Remedial // ?
     }
 }
